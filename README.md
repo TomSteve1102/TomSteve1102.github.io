@@ -14,3 +14,5 @@
 　　很喜欢吃甜食以至于被妈妈禁止吃甜食惹。然而好朋友还是会给 Tom 寄好吃的解馋。
 
    将来会学习Java和C语言并且还会探索更多计算机科学的事情。
+
+   communicate to me by: telegram @tomdayoo or email to i@atomanother.club
