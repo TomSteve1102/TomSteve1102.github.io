@@ -1,0 +1,36 @@
+name: CI
+on:
+  push:
+    branches:
+      - hexo
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
+        with:
+          ref: hexo
+      - name: Use Node.js 12
+        uses: actions/setup-node@v2
+        with:
+          node-version: 12.x
+      - name: Setup hexo
+        env:
+          ACTION_DEPLOY_KEY: ${{ secrets.HEXO_DEPLOY_PRIVATE }}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          git config --global user.email "i@atomanother.club"
+          git config --global user.name "tomsteve1102"
+          npm install --no-optional hexo-cli -g
+          npm install hexo-deployer-git@2.1.0 --save
+          npm install --no-optional
+      - name: Hexo deploy
+        run: |
+          hexo clean
+          hexo g
+          hexo d
