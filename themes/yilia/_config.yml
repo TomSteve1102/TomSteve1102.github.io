@@ -68,7 +68,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar:https://cdn.donmai.us/sample/21/70/__original_drawn_by_amashiro_natsuki__sample-2170e3ecb82b009e1896d1cce55ff818.jpg
+avatar: https://cdn.donmai.us/sample/21/70/__original_drawn_by_amashiro_natsuki__sample-2170e3ecb82b009e1896d1cce55ff818.jpg
 
 #是否开启分享
 share_jia: true
