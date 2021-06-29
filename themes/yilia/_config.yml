@@ -65,7 +65,7 @@ top: true
 # Miscellaneous
 baidu_analytics: ''
 google_analytics: ''
-favicon: /favicon.png
+favicon: /icon/icon.jpg
 
 #你的头像url
 avatar: https://avatars.githubusercontent.com/u/26663350?s=400&u=4696c2d917a5e6ce40a2b0b79b3cc688d732c4e7&v=4
@@ -121,5 +121,6 @@ smart_menu:
 
 friends:
   ControlNet: http://controlnet.space/
+  Shizuku_Neko: http://miaomiaomiao.me/
 
 aboutme: 感谢controlnet对本blog的技术支持，今后也会写一点自己的小技巧和一些想法的。
