@@ -10,6 +10,8 @@ tags: 随笔
 
 ​	2.讲一下建立这个blog的初衷。
 
+<!-- more -->
+
 ------
 
 刚开始有建立这个blog的想法是受到了ControlNet的启发和想分享自己一点技巧和经验。在ControlNet的帮助之下和自己在Ubuntu虚拟机的一顿乱按之下，这个blog就出现了。
