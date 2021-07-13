@@ -16,7 +16,7 @@ tags: 随笔
 
 刚开始有建立这个blog的想法是受到了ControlNet的启发和想分享自己一点技巧和经验。在ControlNet的帮助之下和自己在Ubuntu虚拟机的一顿乱按之下，这个blog就出现了。
 
-在GitHub托管的调试中，我了解了git的部分用法，但实在是看不懂命令行的报错，转而用了带有gui的git的Sourcetree![image-20210629122220097](/photos/image-20210629122220097-1624940547769.png)
+在GitHub托管的调试中，我了解了git的部分用法，但实在是看不懂命令行的报错，转而用了带有gui的git的Sourcetree![](https://i.loli.net/2021/07/13/AwZaKtfj6oDTvng.png)
 
 最后总算是搞定了从写文章到发布的全流程。
 
